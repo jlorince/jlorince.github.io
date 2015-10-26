@@ -1,1 +1,3 @@
 _site/
+_*
+.DS_Store
