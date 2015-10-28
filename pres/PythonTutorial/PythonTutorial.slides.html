@@ -473,7 +473,7 @@ div.output_prompt {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># import MySQLdb</span>
-<span class="c"># db=MySQLdb.connect(host=&#39;rdc04.uits.iu.edu&#39;,port=XXXX,user=XXXX,passwd=XXX,db=&#39;analysis_lastfm&#39;)</span>
+<span class="c"># db=MySQLdb.connect(host,port,user,passwd,db=&#39;databaseName&#39;)</span>
 <span class="c"># cursor = db.cursor()</span>
 <span class="c"># cursor.execute(&quot;SELECT column_a, column_b,c olumn_c FROM some_table&quot;)</span>
 <span class="c"># result = cursor.fetchall()</span>
@@ -491,7 +491,7 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="scrape-data-from-the-web!">scrape data from the web!<a class="anchor-link" href="#scrape-data-from-the-web!">&#182;</a></h3>
+<h3 id="Scrape-data-from-the-web!">Scrape data from the web!<a class="anchor-link" href="#Scrape-data-from-the-web!">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment" data-fragment-index="21">
@@ -527,7 +527,7 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Boto</li>
+<li>Boto (<a href="https://github.com/boto/boto">https://github.com/boto/boto</a>)</li>
 </ul>
 
 </div>
@@ -1757,7 +1757,7 @@ dtype: int64</pre>
 </div>
 </div>
 
-</div><div class="fragment" data-fragment-index="46">
+</div></section><section>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1864,8 +1864,7 @@ dtype: int64</pre>
 </div>
 </div>
 
-</div>
-    </div></section>
+</div></section>
     </section><section>
     <section>
     
@@ -5181,10 +5180,10 @@ RK5CYII=
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[245]:</div>
+<div class="prompt input_prompt">In&nbsp;[264]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c"># I cold have done this whole example in one line of code! (minus calculating the top artists)</span>
+<div class=" highlight hl-ipython2"><pre><span class="c"># I could have done this whole example in one line of code! (minus calculating the top artists)</span>
 <span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s">&#39;artist&#39;</span><span class="p">,</span><span class="s">&#39;timestamp&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">count</span><span class="p">()[</span><span class="s">&#39;item_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unstack</span><span class="p">()</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">top_artists</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s">&#39;M&#39;</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s">&#39;sum&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
@@ -5196,11 +5195,11 @@ RK5CYII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[245]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[264]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x151eaf0d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x18b16ba50&gt;</pre>
 </div>
 
 </div>
