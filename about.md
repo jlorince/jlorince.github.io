@@ -8,5 +8,7 @@ I am a joint PhD candidate in cognitive science and psychology, working with Pet
 
 Besides being a researcher, I'm immeasurably lucky to be dad to an awesome <strike>baby</strike> toddler and husband to an amazing wife. Those three full-time jobs don't leave too much time left over, but I still try to stay busy as a multi-sport athlete. I spread my time across running, cycling (historically on the road, but in recent years mountain biking has taken priority), and weightlifting. I'm also known to do <a href="https://www.goruck.com/challenge">Goruck challenges</a> from time to time.
 
+### Contact me
+
 jared.j.lorince (at) gmail (dot) com
 
