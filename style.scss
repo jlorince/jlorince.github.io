@@ -24,8 +24,9 @@ body {
 }
 
 .container {
+  float: top;
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -151,7 +152,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .masthead {
