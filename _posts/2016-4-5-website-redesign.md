@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redesigned Website
+date:   2016-04-06 14:33:00
 ---
 
 For anyone who's been here before, I've done a major overhaul of my site design, mainly to facilitate a simple blogging workflow with [Jekyll](https://jekyllrb.com/), a markdown-based, static HTML blogging system. It's built into Github pages, and let's you handle all your authoring and updating via Git.
