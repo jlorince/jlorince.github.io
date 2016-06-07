@@ -4,7 +4,7 @@ title: cv
 permalink: /cv/
 ---
 
-## Here are the pretty PDFs of my [CV](files/lorince.cv.pdf) and [professional resume](lorince.resume.public.pdf). 
+## Here are the pretty PDFs of my [CV](../files/lorince.cv.pdf) and [professional resume](../files/lorince.resume.public.pdf). 
 
 <h2>Peer-reviewed publications</h2>
 <ul>
