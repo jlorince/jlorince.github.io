@@ -31,3 +31,14 @@ permalink: /cv/
 <ul>
     <li><a href="/pres/PythonTutorial/PythonTutorial.slides.html">Python for data analysis: A fun-filled tutorial on data scraping, munging, analysis, and visualization with Pandas</a> [<a href="https://github.com/jlorince/jlorince.github.io/blob/master/pres/PythonTutorial/PythonTutorial.ipynb">Notebook</a>]</li>
 </ul>
+
+<h2>Posters</h2>
+<ul>
+    <li><a href="/posters/MWCSC2014.pdf">Metadata and Memory Cues in Collaborative Tagging: Music Listening and Tagging on Last.fm.</a> [MWCSC 2014]</li>
+    <li><a href="/posters/WebSci2013.pdf">Can simple social copying heuristics explain tag popularity in a collaborative tagging system?</a> [WebSci 2013]</li>
+    <li><a href="/posters/ABCposter.Lorince.pdf">Social information environments of collaborative tagging systems: Individual and group-level cognitive perspectives.</a> [ABC Summer Institute on Bounded Rationality]</li>
+    <li><a href="/posters/FlickrPoster.pdf">Testing an Evolutionary Account of Color Preferences Using Online Photos.</a> [HBES 2012]</li>
+</ul>
+
+
+
