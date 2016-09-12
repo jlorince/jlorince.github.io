@@ -9,7 +9,7 @@ For a start, here's a new and improved version of the visualization [from the la
 
 The difference is that time I've included all 112,312 artists from my Last.fm data [1]. As before, the artist-to-artist distance are determined by latent space modeling (using [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)), while the spatial arragement is achieved by the [t-SNE](https://lvdmaaten.github.io/tsne/) dimensionality reduction technique. The cool thing is that *post-hoc* coloring of points with canoncical genre labels reveals that the structure we observe based on co-listening data nicely aligns with real-world genre clusters.
 
-<a href="../images/tsne.png"><img src="../images/tsne-small.png" align="center" /></a>
+<div align="center"> <a href="../images/tsne.png"><img src="../images/tsne-small.png" /></a></div>
 <!--![t-SNE visualization of musical artist space.](../images/tsne-small.png)-->
 
 (Hi-res version availble [here](../images/tsne.png))
