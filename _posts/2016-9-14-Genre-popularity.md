@@ -2,13 +2,13 @@
 layout: post
 title: Fluctuations in musical genre popularity over time
 ---
-<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.css" type="text/css" />
-        
-<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.js"></script>
 
 A question I'm beginning to explore is understanding how and when new musical genres emerge, and as an initial exploratory step I've been generating some visualizations of genre popularity over time using my data from [Last.fm](http://www.last.fm). Classifying the genre of a given song or artist is a tricky business (that I'll hopefully have time to discuss later), but for now I'm using data I scraped from [Gracenote](http://www.gracenote.com), which classifies each song with a three-level genre hierarchy. 
 
 So for starters, here's the overall popularity (in terms of raw number of listens) of Gracenote's 10 top-level genres over time:
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.js"></script>
 
 <div class="bk-root">
 <div class="plotdiv" id="6b99891d-f903-4344-9457-e63f9452cb14"></div>
