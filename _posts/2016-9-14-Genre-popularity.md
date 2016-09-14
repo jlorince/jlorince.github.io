@@ -25,7 +25,7 @@ Bokeh.embed.embed_items(docs_json, render_items);
 });
 </script>
 
-Here I'm resampling the data weekly to make things a bit smoother and more readable (i.e. each datapoint is the mean number of listens for a genre in a given week). Hover over any of the lines to see the genre name, number of listens, and date. There are also box zoom and pan tools available on the right.[1]
+Here I'm resampling the data weekly to make things a bit smoother and more readable (i.e. each datapoint is the mean number of listens for a genre in a given week). Hover over any of the lines to see the genre name, number of listens, and date. There are also box zoom and pan tools available on the right.<sup>[1](#f1)</sup>
 
 There are already some interesting observations to make (apart from the obvious dominance of "rock" and "alternative & punk", as useless as those classifications may be...), particularly in terms of seasonality. Note that people seem to listen to music the most in the winter months (with a distinctive, but short-lived, dip around the holiday season / new year) and the least in the Summer. We can also see the obvious trend of Last.fm's increasing popularity from 2005 to 2009/2010, followed by a gradual decline. There are surely many factors at play here, but the decrease in use can be partly attributed to the rise in popularity of services like Spotify (launched in the US in July 2011) and Pandora (which IPO'd in 2011).
 
@@ -88,4 +88,4 @@ We see that this may all be driven by a major spike in "pop soul". For now it's 
 
 PS - I know the colors here are kinda arbitary...need to think of better ways to handle them here so they don't imply connections across graphs that aren't real...
 
-[1] All the visualizations here were generated with the awesome [Bokeh](http://bokeh.pydata.org/en/latest/) library for Python.
+<a name="f1">1</a>: All the visualizations here were generated with the awesome [Bokeh](http://bokeh.pydata.org/en/latest/) library for Python.
