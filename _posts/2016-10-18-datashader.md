@@ -22,6 +22,6 @@ Just for fun, here is a new embedding of the music data from a [previous post](h
 <div align="center"> <a href="../images/tsne_music_w2v.png"><img src="../images/tsne_music_w2v.png" /></a></div>
 <div align="center"><img src="../images/tsne_music_w2v_key.png" /></div>
 
-And as an example of re-rendering/zooming, here's a detail of the region surround the jazz cluster:
+And as an example of re-rendering/zooming, here's a detail of the region surrounding the jazz cluster:
 <div align="center"> <a href="../images/tsne_music_w2v_zoom.png"><img src="../images/tsne_music_w2v_zoom.png" /></a></div>
 
