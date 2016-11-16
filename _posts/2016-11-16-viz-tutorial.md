@@ -204,13 +204,6 @@ uids = np.array([line.strip() for line in gzip.open('/path/to/uid_indices.txt.gz
 uid_indices = gl.SFrame({'uid':uids[indices],'idx':indices})
 ```
 
-    This non-commercial license of GraphLab Create for academic use is assigned to jlorince@indiana.edu and will expire on May 03, 2017.
-    
-
-    [INFO] graphlab.cython.cy_server: GraphLab Create v2.1 started. Logging: U:\Users\jjl2228\AppData\Local\Temp\25\graphlab_server_1479318743.log.0
-    
-
-
 ```python
 metadata = gl.SFrame('P:/Projects/WoS/WoS/parsed/metadata.sframe/')
 cats = gl.SFrame('P:/Projects/WoS/WoS/parsed/categories.sframe')
@@ -230,57 +223,54 @@ plot_data = plot_data[['x','y','subheading','categories']]
 plot_data.head()
 ```
 
-
-
-
 <div>
 <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>x</th>
-      <th>y</th>
-      <th>subheading</th>
-      <th>categories</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>-0.947329</td>
-      <td>-3.782668</td>
-      <td>Life Sciences &amp; Biomedicine</td>
-      <td>Pharmacology &amp; Pharmacy</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>-6.668430</td>
-      <td>7.766551</td>
-      <td>Life Sciences &amp; Biomedicine</td>
-      <td>Biology|Mathematical &amp; Computational Biology</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-16.014929</td>
-      <td>14.479502</td>
-      <td>Physical Sciences</td>
-      <td>Mathematics</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>10.640243</td>
-      <td>-16.039352</td>
-      <td>Life Sciences &amp; Biomedicine</td>
-      <td>Oncology|Radiology, Nuclear Medicine &amp; Medical...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-21.193598</td>
-      <td>0.940371</td>
-      <td></td>
-      <td>Criminology &amp; Penology</td>
-    </tr>
-  </tbody>
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>x</th>
+<th>y</th>
+<th>subheading</th>
+<th>categories</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>-0.947329</td>
+<td>-3.782668</td>
+<td>Life Sciences &amp; Biomedicine</td>
+<td>Pharmacology &amp; Pharmacy</td>
+</tr>
+<tr>
+<th>1</th>
+<td>-6.668430</td>
+<td>7.766551</td>
+<td>Life Sciences &amp; Biomedicine</td>
+<td>Biology|Mathematical &amp; Computational Biology</td>
+</tr>
+<tr>
+<th>2</th>
+<td>-16.014929</td>
+<td>14.479502</td>
+<td>Physical Sciences</td>
+<td>Mathematics</td>
+</tr>
+<tr>
+<th>3</th>
+<td>10.640243</td>
+<td>-16.039352</td>
+<td>Life Sciences &amp; Biomedicine</td>
+<td>Oncology|Radiology, Nuclear Medicine &amp; Medical...</td>
+</tr>
+<tr>
+<th>4</th>
+<td>-21.193598</td>
+<td>0.940371</td>
+<td></td>
+<td>Criminology &amp; Penology</td>
+</tr>
+</tbody>
 </table>
 </div>
 
