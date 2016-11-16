@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modeling musical artists, take 2 – Jared Lorince – Cognitive Data Scientist</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="I’m finally settling down into the new post-doc (oh, and I finished my PhD!), and will try to start posting again here.
+
+" />
+    <meta property="og:description" content="I’m finally settling down into the new post-doc (oh, and I finished my PhD!), and will try to start posting again here.
+
+" />
+    
+    <meta name="author" content="Jared Lorince" />
+
+    
+    <meta property="og:title" content="Modeling musical artists, take 2" />
+    <meta property="twitter:title" content="Modeling musical artists, take 2" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Jared Lorince - Cognitive Data Scientist" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <!--<a href="/" class="site-avatar"><img src="" /></a>-->
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Jared Lorince</a></h1>
+            <p class="site-description">Cognitive Data Scientist</p>
+          </div>
+
+
+
+          <nav>
+          <style>
+          .navlink[this=Modeling musical artists, take 2] {
+            font-weight: bold;
+            }
+          </style>
+            <a href="/" class='navlink' this="blog">blog</a>
+            <a href="/about" class='navlink' this="about">about</a>
+            <a href="/research" class='navlink' this="research">research</a>
+            <a href="/cv" class='navlink' this="cv" >cv</a>
+            <!--<a href="/about">publications and presentations</a>-->
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Modeling musical artists, take 2</h1>
+
+  <div class="entry">
+    <p>I’m finally settling down into the new post-doc (oh, and I finished my PhD!), and will try to start posting again here.</p>
+
+<p>For a start, here’s a new and improved version of the visualization <a href="https://jlorince.github.io/Modeling-musical-artists/">from the last time I posted</a>. The interactive version is pretty resource intensive (note to self: learn how to make interactive graphics at this scale that don’t bog down the browser…), so you’ll have to settle for this static version.</p>
+
+<p>The difference is that time I’ve included all 112,312 artists from my Last.fm data [1]. As before, the artist-to-artist distance are determined by latent space modeling (using <a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">LDA</a>), while the spatial arragement is achieved by the <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a> dimensionality reduction technique. The cool thing is that <em>post-hoc</em> coloring of points with canoncical genre labels reveals that the structure we observe based on co-listening data nicely aligns with real-world genre clusters.</p>
+
+<div align="center"> <a href="../images/tsne.png"><img src="../images/tsne-small.png" /></a></div>
+<!--![t-SNE visualization of musical artist space.](../images/tsne-small.png)-->
+
+<p>(Hi-res version availble <a href="../images/tsne.png">here</a>)</p>
+
+<p>[1] Technically this isn’t all the artists, but rather all the artists with (a) at least 1,000 total listens recorded across all users, and (b) at least 100 unique listeners. This heuristic let us ignore a bunch of garbage data, and kep the LDA models we were running manageable.</p>
+
+  </div>
+
+  <div class="date">
+    2016-09-12
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:jared.j.lorince@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://scholar.google.com/citations?user=2Yxrx8MAAAAJ&hl=en"><i class="svg-icon scholar"></i></a>
+<a href="https://github.com/jlorince"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/jaredlorince"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="https://www.twitter.com/axelstreichen"><i class="svg-icon twitter"></i></a>
+
+
+
+<a href="http://last.fm/user/AxelStreichen"><i class="svg-icon lastfm"></i></a>
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

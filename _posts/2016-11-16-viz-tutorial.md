@@ -222,6 +222,7 @@ However you get there, waht you want is a pandas dataframe with one row per docu
 plot_data = plot_data[['x','y','subheading','categories']]
 plot_data.head()
 ```
+[ EDIT: I know this table formatting is messed up, but haven't figured out how to fix it! ]
 
 <div>
 <table border="1" class="dataframe">
