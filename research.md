@@ -4,16 +4,27 @@ title: research
 permalink: /research/
 ---
 
+## Current projects
+
+<h3><i>Tracking research disciplines on the Web of Science</i></h3>
+
+In this ongoing work, I use a variety of text-mining, machine learning, and related methods to track (and hopefully predict) the popularity of differerent areas of academic research as identified within publications found in the Web of Science. 
+
+<h3><i>Music and gender</i></h3>
+
+This project aims to explore genders differences in patterns of music production and consumption.
+
 ## Music listening and tagging patterns on Last.fm
 <p>In this research program (my dissertation research) I explore a large-scale dataset from <a href="http://www.last.fm">Last.fm</a>, including music listening, tagging, social relationships, and more. How do patterns of listening and tagging interact? How do users decide what items to tag and what tags to assign to those items? What heuristic decision-making strategies might drive their behavior in these environments?</p>
 <h3 ><i>Music Foraging</i></h3>
 <div >
-    <p>In my ongoing thesis research, I use foraging theory from ecology as a lens to study patterns of music consumption. Foraging animals move from one resource patch to another, exploiting one until doing so becomes less lucrative that setting out in search of a new patch. Is there evidence of such foraging patterns in people's patterns of music listening? What constitutes a "patch" in the high-dimensional space of musical artists? What factors influence listeners' decisions to remain in or move between such patches?</p>
+    <p>In my thesis research, I used foraging theory from ecology as a lens to study patterns of music consumption. Foraging animals move from one resource patch to another, exploiting one until doing so becomes less lucrative that setting out in search of a new patch. Is there evidence of such foraging patterns in people's patterns of music listening? What constitutes a "patch" in the high-dimensional space of musical artists? What factors influence listeners' decisions to remain in or move between such patches?</p>
+<p>Doctoral Dissertation: <a href="../papers/thesis.lorince.pdf">Consumption of Content on the Web: An Ecologically Inspired Perspective</a> (<a href="https://scholarworks.iu.edu/dspace/handle/2022/20997">IU ScholarWorks</a>)</p>
 </div>
 <h3 ><i>Do tags really serve as retrieval aids?</i></h3>
 <div >
     <p>In collaborative tagging, it is generally assumed that tags serve a retrieval function, facilitating users' ability to re-find tagged content at a later time. As common as the perspective is, there is practically no empirical evidence supporting it. By examining how music tagging and listening patterns interact, we aim to determine if tagging has a causal impact on future listening, as would be expected if it does in fact facilitate future retrieval.</p>
-    <p><a href="https://dl.dropboxusercontent.com/u/625604//papers/Lorince.Joseph.Todd.SBP2015.pdf">Analysis of music tagging and listening patterns: Do tags really function as retrieval aids?</a> (SBP 2015) <br />
+    <p><a href="../papers/2015.Lorince.Joseph.Todd.SBP.pdf">Analysis of music tagging and listening patterns: Do tags really function as retrieval aids?</a> (SBP 2015) <br />
     <a href="https://dl.dropboxusercontent.com/u/625604//papers/CogSciBigData.pdf">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System</a> (book chapter, in press) <br />
     <a href="https://dl.dropboxusercontent.com/u/625604/posters/MWCSC2014.pdf">Metadata and Memory Cues in Collaborative Tagging: Music Listening and Tagging on Last.fm</a> (poster presented at MWCSC 2014) <br /></p>
 </div>
@@ -32,7 +43,7 @@ permalink: /research/
 </p>
 
 <h2>Personas discovery at StumbleUpon</h2>
- <p>At StumbleUpon, I work on understanding users' interest profiles, with applications to recommendation and prediction. This involves a combinations of topic modeling and matrix factorization methods for learning user interests, modeling URL topics, and predicting ratings within a unified framework.</p>
+ <p>At StumbleUpon, I worked on understanding users' interest profiles, with applications to recommendation and prediction. This involves a combinations of topic modeling and matrix factorization methods for learning user interests, modeling URL topics, and predicting ratings within a unified framework.</p>
 <!--<h3 ">Try out the <a href="projects/tagging/tagExplorer.html">tag explorer</a>!</h3>-->
 
 <h2>Color preferences of Flickr users</h2>
