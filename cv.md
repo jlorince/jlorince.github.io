@@ -8,7 +8,7 @@ permalink: /cv/
 
 <h2>Peer-reviewed publications</h2>
 <ul>
-    <li><a href="/papers/2016.Lorince.Todd.CogSciBigDataChapter.pdf">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System.</a> [chapter in <i>Big Data in Cognitive Science: From Methods to Insights</i>]</li>
+    <li><a href="/papers/2016.Lorince.Todd.CogSciBigDataChapter.pdf">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System.</a> [chapter in <i><a href="https://www.amazon.com/Data-Cognitive-Science-Frontiers-Psychology/dp/1138791938">Big Data in Cognitive Science: From Methods to Insights</a></i>]</li>
     <li><a href="/papers/2015.Lorince.Zorowitz.Murdock.Todd.JOWS.pdf">The Wisdom of the Few? "Supertaggers" in Collaborative Tagging Systems.</a> [<a href="http://www.nowpublishers.com/article/Details/JWS-0002">The Journal of Web Science</a>]</li>
     <li><a href="/papers/2015.Lorince.Joseph.Todd.iccss.pdf">Do tags really function as retrieval aids?</a> [1st Annual International Conference on Computational Social Science (ICCSS 2015)]</li>
     <li><a href="/papers/2015.Lorince.Joseph.Todd.SBP.pdf">Analysis of music tagging and listening patterns: Do tags really function as retrieval aids?</a> [<a href="http://link.springer.com/chapter/10.1007/978-3-319-16268-3_15">8th Annual Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction (SBP 2015)</a>]</li>
