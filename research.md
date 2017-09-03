@@ -32,7 +32,7 @@ In my postdoctoral work, I used a variety of text-mining, machine learning, and 
 </div>
 <h3 ><i>Other work</i></h3>
 <p>
-Gender differences in production and Consumption of popular music.
+Gender differences in production and Consumption of popular music.<br />
 <a href="/papers/2013.Lorince.Todd.websci.pdf">Can simple social copying heuristics explain tag popularity in a collaborative tagging system?</a> [<a href="/posters/WebSci2013.pdf">poster</a>] (Web Science 2013)<br />
 <a href="/pres/Chasm2014.pdf">Identifying Canonical Music Listening Patterns on Last.fm</a> (presentation, ChASM Workshop at WebSci'14)<br />
 <a href="/posters/ABCposter.Lorince.pdf">Social information environments of collaborative tagging systems: Individual and group-level cognitive perspectives</a> (poster presented at the ABC Summer Institute on Bounded Rationality)

@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Click [here](../files/lorince.cv.pdf) for my curriculum vitae.
 
-<h2>Peer-reviewed publications</h2>
+<h3>Peer-reviewed publications</h3>
 <ul>
     <li><a href="/papers/2016.Lorince.Todd.CogSciBigDataChapter.pdf">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System.</a> [chapter in <i><a href="https://www.amazon.com/Data-Cognitive-Science-Frontiers-Psychology/dp/1138791938">Big Data in Cognitive Science: From Methods to Insights</a></i>]</li>
     <li><a href="/papers/2015.Lorince.Zorowitz.Murdock.Todd.JOWS.pdf">The Wisdom of the Few? "Supertaggers" in Collaborative Tagging Systems.</a> [<a href="http://www.nowpublishers.com/article/Details/JWS-0002">The Journal of Web Science</a>]</li>
@@ -18,7 +18,7 @@ permalink: /cv/
     <li><a href="/papers/2013.Mullinix.et.al.IGIC.pdf">Heuristica: Designing a serious game for improving decision making.</a> [<a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6659159&abstractAccess=no&userType=inst">2013 IEEE Games Innovation Conference (IGIC)</a>]</li>
     <li><a href="/papers/2013.Veinott.et.al.IGIC.pdf">The effect of camera perspective and session duration on training decision making in a serious video game.</a> [<a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6659170&abstractAccess=no&userType=inst">2013 IEEE Games Innovation Conference (IGIC)</a>]</li>
 </ul>
-<h2>Conference talks</h2>
+<h3>Conference talks</h3>
 <ul>
     <li><a href="/pres/iccss2015.pdf">Do tags really function as retrieval aids?</a> [ICCSS 2015]</li>
     <li><a href="/pres/sbp2015.pdf">Analysis of music tagging and listening patterns: Do tags really function as retrieval aids?</a> [SBP 2015]</li>
@@ -27,12 +27,12 @@ permalink: /cv/
     <li><a href="/pres/sbp2014.pdf">Path Following in Social Web Search.</a> [SBP 2014]</li>
 
 </ul>
-<h2>Other presentations</h2>
+<h3>Other presentations</h3>
 <ul>
     <li><a href="/pres/PythonTutorial/PythonTutorial.slides.html">Python for data analysis: A fun-filled tutorial on data scraping, munging, analysis, and visualization with Pandas</a> [<a href="https://github.com/jlorince/jlorince.github.io/blob/master/pres/PythonTutorial/PythonTutorial.ipynb">Notebook</a>]</li>
 </ul>
 
-<h2>Posters</h2>
+<h3>Posters</h3>
 <ul>
     <li><a href="/posters/MWCSC2014.pdf">Metadata and Memory Cues in Collaborative Tagging: Music Listening and Tagging on Last.fm.</a> [MWCSC 2014]</li>
     <li><a href="/posters/WebSci2013.pdf">Can simple social copying heuristics explain tag popularity in a collaborative tagging system?</a> [WebSci 2013]</li>
