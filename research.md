@@ -4,18 +4,13 @@ title: research
 permalink: /research/
 ---
 
-## Current projects
+## Semantic modeling of academic papers
 
-<h3><i>Tracking research disciplines on the Web of Science</i></h3>
-
-In this ongoing work, I use a variety of text-mining, machine learning, and related methods to track (and hopefully predict) the popularity of differerent areas of academic research as identified within publications found in the Web of Science. 
-
-<h3><i>Music and gender</i></h3>
-
-This project aims to explore genders differences in patterns of music production and consumption.
+In my postdoctoral work, I used a variety of text-mining, machine learning, and related methods to model the semantic space of academic research, with applications to predicting the growth and decline of academic disciplines.
 
 ## Music listening and tagging patterns on Last.fm
-<p>In this research program (my dissertation research) I explore a large-scale dataset from <a href="http://www.last.fm">Last.fm</a>, including music listening, tagging, social relationships, and more. How do patterns of listening and tagging interact? How do users decide what items to tag and what tags to assign to those items? What heuristic decision-making strategies might drive their behavior in these environments?</p>
+<p>In this research program (my dissertation research) I explored a large-scale dataset from <a href="http://www.last.fm">Last.fm</a>, including music listening, tagging, social relationships, and more. How do patterns of listening and tagging interact? How do users decide what items to tag and what tags to assign to those items? What heuristic decision-making strategies might drive their behavior in these environments?</p>
+
 <h3 ><i>Music Foraging</i></h3>
 <div >
     <p>In my thesis research, I used foraging theory from ecology as a lens to study patterns of music consumption. Foraging animals move from one resource patch to another, exploiting one until doing so becomes less lucrative that setting out in search of a new patch. Is there evidence of such foraging patterns in people's patterns of music listening? What constitutes a "patch" in the high-dimensional space of musical artists? What factors influence listeners' decisions to remain in or move between such patches?</p>
@@ -37,6 +32,7 @@ This project aims to explore genders differences in patterns of music production
 </div>
 <h3 ><i>Other work</i></h3>
 <p>
+Gender differences in production and Consumption of popular music.
 <a href="/papers/2013.Lorince.Todd.websci.pdf">Can simple social copying heuristics explain tag popularity in a collaborative tagging system?</a> [<a href="/posters/WebSci2013.pdf">poster</a>] (Web Science 2013)<br />
 <a href="/pres/Chasm2014.pdf">Identifying Canonical Music Listening Patterns on Last.fm</a> (presentation, ChASM Workshop at WebSci'14)<br />
 <a href="/posters/ABCposter.Lorince.pdf">Social information environments of collaborative tagging systems: Individual and group-level cognitive perspectives</a> (poster presented at the ABC Summer Institute on Bounded Rationality)
