@@ -63,7 +63,7 @@ Once you've run the script, you'll see the snippets in Alfred preferences, and c
 
 Now we're ready to actually use Hub to make pull requests from the command line. My approach relies on a few shell functions/aliases that I'll describe below, but obviously there are many ways you could get this to work. Here's my bash function for actually creating a PR:
 
-```bash
+{% highlight bash %}
 function gpr(){
   squash "${2:-master}"
   gc $1
@@ -72,7 +72,7 @@ function gpr(){
   hub pull-request -p -F pr_desc -e -c -b "${2:-master}"
   rm -f pr_desc
 }
-```
+{% endhighlight %}
 
 There's a bit happening here, so to unpack it a bit...
 
@@ -80,7 +80,7 @@ There's a bit happening here, so to unpack it a bit...
 
 I often generate a number of commits while working on something, and like to squash all that into a single commit when I open a PR, so that's what this line. `$2` is an optional second argument specifying the base branch, which defaults to master. I use a custom squash function, which looks like this:
 
-```bash
+{% highlight bash %}
 function squash(){
   current_branch=$(git_branch)
   git branch -D my-branch-old
@@ -89,21 +89,21 @@ function squash(){
   git checkout -b $current_branch
   git merge --squash my-branch-old
 }
-```
+{% endhighlight %}
 
 `squash` takes the optional base branch parameter from above, and lets me collapse all my changes into a single commit, without mucking about with rebases. There may be better/different ways, but this allows me to work for a while without worrying about "good" commit messages, and now that I can make my PR with a single commit and clear commit message when I'm ready.
 
 This also uses a `git_branch` alias I have configured to get the name of the current branch:
 
-```bash
+{% highlight bash %}
 alias git_branch="git rev-parse --abbrev-ref HEAD"
-```
+{% endhighlight %}
 
 ### `gc $1`
 
 This line uses a custom commit function to actually commit my work, and uses the first (required) function argument as the commit message.
 
-```bash
+{% highlight bash %}
 function getJIRA(){
     python -c 'import sys; print("-".join(sys.stdin.read().split("-")[:2]))'
 }
@@ -111,7 +111,7 @@ alias gj="git_branch | getJIRA"
 function gc(){
     git commit -m "$(gj) $1"
 }
-```
+{% endhighlight %}
 Every commit to master at my company needs to be prepended with a JIRA ticket number (e.g. ABC-12345), and I follow a convention of naming my branches with the ticket number as well, e.g. "ABC-12345-some-feature". This just allows me to pull that ticket number off the branch name, and prepend it to the commit message.
 
 You could replace this with `git commit -m $1` if you don't care about the JIRA ticket number stuff.
@@ -120,9 +120,9 @@ You could replace this with `git commit -m $1` if you don't care about the JIRA 
 
 Another alias, which just pushes to the remote branch:
 
-```bash
+{% highlight bash %}
 alias gp="git push origin $(git_branch)"
-```
+{% endhighlight %}
 
 ###  `printf "$1\n\n" > pr_desc`
 
