@@ -19,7 +19,7 @@ Be sure to set the snippet matching option in Alfred to "Name, Keyword, or Snipp
 
 The script depends on you having a [GitHub access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) defined as `GITHUB_TOKEN` in your environment
 
-```python
+~~~python
 #!/usr/bin/env python
 import json
 import os
@@ -55,7 +55,7 @@ for org_name in ORGS:
         filename = f"{SNIPPET_PATH}/{user.login} [{snippet_id}].json"
         with open(filename, "w") as f:
             f.write(json.dumps(json_spec))
-```
+~~~
 
 Once you've run the script, you'll see the snippets in Alfred preferences, and can insert them the usual way. If you're team is changing quite a bit, I could imagine setting up a Cron job to re run this script and make sure your snippets are up to date, but I just manually re-run as needed.
 
