@@ -126,11 +126,15 @@ alias gp="git push origin $(git_branch)"
 
 ###  `printf "$1\n\n" > pr_desc`
 
-A Hub pull request uses a file where the first line is the PR title, and any other text is used as the PR description. This can all be done interactively, but I know I want to use my commit message as the PR description, so I first write that to a temporary file, which I'll have Hub parse in the next step.
+A Hub pull request uses a file where the first line is the PR title, and any other text is used as the PR description. This can all be done interactively, but I know I want to use my commit message as the PR title, so I first write that to a temporary file, which I'll have Hub parse in the next step.
 
 ### `hub pull-request -F pr_desc -e -c -b "${2:-master}"`
 
 Here's where we actually make the pull request. `-F` tells hub to use the file we configured in the previous step, `-c` tells it to copy the URL of the pull request to the clipboard once it's made, and `-b` allows specifying the base branch defined above (again defaulting to master). There is a variety of other ways to customize pull request behavior, documented [here](https://hub.github.com/hub-pull-request.1.html); this is just what works for me.
+
+After this command runs, it will open up the default editor (similar to how it would when running `git commit`) with the PR title already set. I then just add my PR description, use my Alfred snippets to tag team members as needed, and I'm off to the races.
+
+Again, this is my own idiosyncratic flow, but hopefully at least parts of it are useful. Feel free to reach out with suggestions/comments.
 
 
 
