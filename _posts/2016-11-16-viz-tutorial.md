@@ -233,59 +233,14 @@ However you get there, waht you want is a pandas dataframe with one row per docu
 plot_data = plot_data[['x','y','subheading','categories']]
 plot_data.head()
 {% endhighlight %}
-[ EDIT: I know this table formatting is messed up, but haven't figured out how to fix it! ]
 
-<div>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>x</th>
-<th>y</th>
-<th>subheading</th>
-<th>categories</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>-0.947329</td>
-<td>-3.782668</td>
-<td>Life Sciences &amp; Biomedicine</td>
-<td>Pharmacology &amp; Pharmacy</td>
-</tr>
-<tr>
-<th>1</th>
-<td>-6.668430</td>
-<td>7.766551</td>
-<td>Life Sciences &amp; Biomedicine</td>
-<td>Biology|Mathematical &amp; Computational Biology</td>
-</tr>
-<tr>
-<th>2</th>
-<td>-16.014929</td>
-<td>14.479502</td>
-<td>Physical Sciences</td>
-<td>Mathematics</td>
-</tr>
-<tr>
-<th>3</th>
-<td>10.640243</td>
-<td>-16.039352</td>
-<td>Life Sciences &amp; Biomedicine</td>
-<td>Oncology|Radiology, Nuclear Medicine &amp; Medical...</td>
-</tr>
-<tr>
-<th>4</th>
-<td>-21.193598</td>
-<td>0.940371</td>
-<td></td>
-<td>Criminology &amp; Penology</td>
-</tr>
-</tbody>
-</table>
-</div>
-
+|x|y|subheading|categories|
+|--- |--- |--- |--- |
+|-0.947329|-3.782668|Life Sciences & Biomedicine|Pharmacology & Pharmacy|
+|-6.668430|7.766551|Life Sciences & Biomedicine|Biology; Mathematical & Computational Biology|
+|-16.014929|14.479502|Physical Sciences|Mathematics|
+|10.640243|-16.039352|Life Sciences & Biomedicine|Oncology; Radiology, Nuclear Medicine & Medical...|
+|-21.193598|0.940371|Criminology & Penology|null|
 
 
 Now, datashader requires that we explicitly represent categorical data as categorical data types, so let's do that
