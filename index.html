@@ -3,44 +3,26 @@
   <head>
     <title>Jared Lorince</title>
     <meta charset="utf-8" />
-    <!-- include the termynal stylesheet -->
-    <link rel="stylesheet" href="termynal.css" />
-    <!-- some custom styles for the page -->
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Mono" />
-    <style>
-      body {
-        padding: 0;
-        margin: 0;
-        background: #1a1e24;
-        width: 100%;
-        min-height: 100vh;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-    </style>
   </head>
   <body>
-    <!-- the termynal container -->
-    <div id="termynal" data-termynal data-ty-lineDelay="100" data-ty-typeDelay="50" >
+    <div class="header">
+        /Users/jlorince/
+    </div>
+    <div id="termynal" data-termynal data-ty-startDelay="10" data-ty-lineDelay="100" data-ty-typeDelay="25" >
       <span data-ty="input">python</span>
       <span data-ty="input" data-ty-prompt=">>>"
-        >from jlorince.github.io import Jared</span
+        >from jlorince.github.io import me</span
       >
-      <span data-ty="input" data-ty-prompt=">>>">Jared.summary()</span>
+      <span data-ty="input" data-ty-prompt=">>>">me.summary()</span>
       <span data-ty
-        >Software Engineer at <a href="https://hex.tech">Hex.tech</a></span
+        >Jared Lorince, Software Engineer at <a href="https://hex.tech">Hex.tech</a></span
       >
-      <span data-ty="input" data-ty-prompt=">>>">Jared.contact_info()</span>
-      <span data-ty><a href="https://github.com/jlorince">Github</a><br/><a href="https://www.linkedin.com/in/jaredlorince/">Linkedin</a><br/><a href="mailto:jared.j.lorince@gmail.com">Email</a></span>
+      <span data-ty="input" data-ty-prompt=">>>">me.contact_info()</span>
+      <span data-ty><a href="https://github.com/jlorince">Github</a> | <a href="https://www.linkedin.com/in/jaredlorince/">Linkedin</a> | <a href="mailto:jared.j.lorince@gmail.com">Email</a></span>
+      <span data-ty="input" data-ty-prompt=">>>">me.metadata()</span>
+      <span data-ty><a href="pubs.html">Publications & Patents</a></span>
       <span data-ty="input" data-ty-prompt=">>>">exit()</span>
       <span data-ty="input" />
     </div>
