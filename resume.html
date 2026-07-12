@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jared Lorince — Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #111;
+    background: #fff;
+    padding: 0.55in 0.65in;
+    max-width: 8.5in;
+    margin: 0 auto;
+  }
+
+  /* ── Header ── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10pt;
+    padding-bottom: 8pt;
+    border-bottom: 1.5px solid #111;
+  }
+
+  header .name-block h1 {
+    font-size: 20pt;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 1.1;
+  }
+
+  header .name-block .title {
+    font-size: 10pt;
+    color: #555;
+    margin-top: 2pt;
+    font-weight: 400;
+  }
+
+  header .contact-block {
+    text-align: right;
+    font-size: 9pt;
+    color: #333;
+    line-height: 1.7;
+  }
+
+  header .contact-block a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* ── Sections ── */
+  section {
+    margin-top: 7pt;
+  }
+
+  h2 {
+    font-size: 8.5pt;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #555;
+    border-bottom: 0.75px solid #ccc;
+    padding-bottom: 2pt;
+    margin-bottom: 5pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* ── Summary ── */
+  .summary p {
+    color: #222;
+  }
+
+  /* ── Competencies ── */
+  .competencies ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3pt;
+  }
+
+  .competencies li {
+    padding-left: 0;
+  }
+
+  /* ── Experience ── */
+  .role-block {
+    margin-bottom: 6pt;
+  }
+
+  .role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .role-header .org {
+    font-weight: 600;
+    font-size: 10.5pt;
+  }
+
+  .role-header .dates {
+    font-size: 9pt;
+    color: #555;
+    flex-shrink: 0;
+    margin-left: 8pt;
+  }
+
+  .role-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0.5pt;
+  }
+
+  .role-sub .title-label {
+    font-style: italic;
+    font-size: 9.5pt;
+    color: #333;
+  }
+
+  .role-sub .sub-dates {
+    font-size: 9pt;
+    color: #555;
+    flex-shrink: 0;
+    margin-left: 8pt;
+  }
+
+  .role-block ul {
+    list-style: none;
+    margin-top: 3pt;
+    display: flex;
+    flex-direction: column;
+    gap: 2pt;
+  }
+
+  .role-block ul li {
+    padding-left: 12pt;
+    position: relative;
+    font-size: 9.5pt;
+    color: #222;
+  }
+
+  .role-block ul li::before {
+    content: '▪';
+    position: absolute;
+    left: 0;
+    color: #888;
+    font-size: 7pt;
+    top: 1.5pt;
+  }
+
+  .sub-role {
+    margin-top: 3pt;
+  }
+
+  /* ── Earlier experience ── */
+  .earlier-block {
+    margin-bottom: 4pt;
+    font-size: 9.5pt;
+  }
+
+  .earlier-block .earlier-header {
+    font-weight: 500;
+  }
+
+  /* ── Education ── */
+  .edu-block {
+    margin-bottom: 4pt;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .edu-header .school { font-weight: 600; }
+  .edu-header .dates { font-size: 9pt; color: #555; }
+
+  .edu-block .degree {
+    font-size: 9.5pt;
+    color: #333;
+    font-style: italic;
+  }
+
+  /* ── Patents / Publications ── */
+  .ref-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5pt;
+  }
+
+  .ref-list li {
+    font-size: 9pt;
+    color: #222;
+    padding-left: 12pt;
+    position: relative;
+  }
+
+  .ref-list li::before {
+    content: '▪';
+    position: absolute;
+    left: 0;
+    color: #888;
+    font-size: 7pt;
+    top: 1.5pt;
+  }
+
+  .ref-list li em { font-style: normal; font-weight: 500; }
+
+  .pub-note {
+    font-size: 9pt;
+    color: #777;
+    margin-top: 4pt;
+    font-style: italic;
+  }
+
+  @media print {
+    body { padding: 0; }
+    @page { margin: 0.55in 0.65in; size: letter; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="name-block">
+    <h1>Jared Lorince</h1>
+    <div class="title">AI Engineer</div>
+  </div>
+  <div class="contact-block">
+    <a href="mailto:jared.j.lorince@gmail.com">jared.j.lorince@gmail.com</a><br />
+    <a href="https://jlorince.github.io" target="_blank">jlorince.github.io</a><br />
+    <a href="https://www.linkedin.com/in/jaredlorince/" target="_blank">linkedin.com/in/jaredlorince</a><br />
+    Chicago, IL
+  </div>
+</header>
+
+<section class="summary">
+  <h2>Summary</h2>
+  <p>PhD-trained AI engineer with 9+ years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.</p>
+</section>
+
+<section class="competencies">
+  <h2>Core Competencies</h2>
+  <ul>
+    <li><strong>AI/ML systems</strong> — Designing and shipping LLM-powered products end to end: agent frameworks, tool-calling and validation infrastructure, prompt engineering and evaluation, and telemetry for measuring AI impact in production.</li>
+    <li><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale (Python, TypeScript/React).</li>
+    <li><strong>Data &amp; analysis</strong> — Large-scale data processing, statistical analysis, and experimental design (SQL, Spark, Python scientific stack); PhD-level research methodology applied to product decisions.</li>
+    <li><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, mentoring, and driving cross-team standardization.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <div class="role-block">
+    <div class="role-header">
+      <span class="org">Databricks</span>
+      <span class="dates">March 2025 – Present</span>
+    </div>
+    <div class="role-sub">
+      <span class="title-label">Senior Software Engineer</span>
+    </div>
+    <ul>
+      <li>Build core framework and user-facing features for AI coding assistance across the product — tool selection, diff parsing and rendering, accept/reject flows, and the coordination layer tying disparate AI surfaces into a coherent experience.</li>
+      <li>Identified the absence of structured validation in the LLM tool-calling path; designed and built the validation layer (schema enforcement, retry and error-handling logic) now foundational to the internal agent API consumed by teams across the company.</li>
+      <li>Standardized how AI-proposed code changes are rendered across product contexts; drove the design of the integration unifying the inline assistant with the sidebar agent experience.</li>
+      <li>Sole owner of character-level code-attribution telemetry — the company's source of truth for measuring AI feature impact in production.</li>
+    </ul>
+  </div>
+
+  <div class="role-block">
+    <div class="role-header">
+      <span class="org">Hex Technologies</span>
+      <span class="dates">May 2021 – March 2025</span>
+    </div>
+    <div class="role-sub">
+      <span class="title-label">10th employee; founding engineer of the AI team</span>
+    </div>
+
+    <div class="sub-role">
+      <div class="role-sub">
+        <span class="title-label">Staff AI Engineer — Technical lead for a 6-engineer AI team</span>
+        <span class="sub-dates">Sept 2024 – March 2025</span>
+      </div>
+      <ul>
+        <li>Built a custom SQL parser enabling configuration of no-code data explorations via natural language.</li>
+        <li>Built a pipeline that automatically generates suggested prompts from customer data, giving users contextual examples for Hex's AI features.</li>
+        <li>Integrated AI typeahead into the product, providing live in-editor code completions.</li>
+      </ul>
+    </div>
+
+    <div class="sub-role">
+      <div class="role-sub">
+        <span class="title-label">Senior AI Engineer — Founding engineer of Hex Magic</span>
+        <span class="sub-dates">Jan 2023 – Sept 2024</span>
+      </div>
+      <ul>
+        <li>Sole developer on the initial integration of AI features into the platform.</li>
+        <li>Architected an agent-agnostic LLM prompting pipeline underlying all AI features, including custom event-tracking instrumentation.</li>
+        <li>Designed and implemented an evaluation framework to quantify prompting quality and enable experimentation with new strategies.</li>
+        <li>Built "Magic Analysis," letting users ask natural-language questions and receive an intelligently selected combination of SQL, Python, and visualizations in response.</li>
+      </ul>
+    </div>
+
+    <div class="sub-role">
+      <div class="role-sub">
+        <span class="title-label">Senior Software Engineer</span>
+        <span class="sub-dates">May 2021 – Jan 2023</span>
+      </div>
+      <ul>
+        <li>Designed a custom file format for Hex notebooks, enabling import/export, GitHub sync, and other enterprise features.</li>
+        <li>Implemented dataframe SQL; shipped the public API; added R language support.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="role-block">
+    <div class="role-header">
+      <span class="org">Narrative Science, Inc.</span>
+      <span class="dates">May 2017 – May 2021</span>
+    </div>
+    <div class="role-sub">
+      <span class="title-label">Software Engineer → Senior Software Engineer → Data Intelligence Technical Lead</span>
+    </div>
+    <ul>
+      <li>Developer on the core NLG platform generating natural-language narratives from complex datasets.</li>
+      <li>Member of the incubation team prototyping high-risk/high-reward features, including automatic extraction of linguistic expressions from unstructured text (see Patents).</li>
+      <li>Built a custom event-tracking framework enabling stakeholders to analyze user interaction with the platform.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Earlier Experience</h2>
+  <div class="earlier-block">
+    <span class="earlier-header">Postdoctoral Fellow, Northwestern Institute on Complex Systems (NICO)</span> (2016–2017) — Research in complex systems and computational social science; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
+  </div>
+  <div class="earlier-block">
+    <span class="earlier-header">Data Scientist, StumbleUpon</span> (2015–2016) — Lead developer of an Apache Spark framework combining topic modeling and rating prediction for user-interest profiling and content recommendation.
+  </div>
+  <div class="earlier-block">
+    <span class="earlier-header">Internships:</span> StumbleUpon, Data Science Intern (Summer 2015); Yahoo! Labs, Research Scientist Intern (2011–2012).
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu-block">
+    <div class="edu-header">
+      <span class="school">Indiana University, Bloomington</span>
+      <span class="dates">2010 – 2016</span>
+    </div>
+    <div class="degree">Joint Ph.D. in Cognitive Science and Cognitive Psychology</div>
+  </div>
+  <div class="edu-block">
+    <div class="edu-header">
+      <span class="school">University of California, Berkeley</span>
+      <span class="dates">2005 – 2009</span>
+    </div>
+    <div class="degree">B.A. with High Honors in Cognitive Science</div>
+  </div>
+</section>
+
+<section>
+  <h2>Patents</h2>
+  <ul class="ref-list">
+    <li>Bischof, B., <em>Lorince, J.</em>, Colgrove, C., McCardel, B., Takahashi, G., &amp; Storr, A. (2025). Priming generative AI model leveraging directed acyclic graph-driven notebook environment. U.S. Patent No. US 12,332,931.</li>
+    <li><em>Lorince, J.</em>, Storr, A., McCardel, B., Miller, I., Colgrove, C., &amp; Bischof, B. (2024). Machine learning-assisted code generation in directed acyclic graph-driven notebook environment. U.S. Patent Application No. US 2024/0256228 A1 (pending).</li>
+    <li>Smathers, M., Platt, D., Nichols, N., &amp; <em>Lorince, J.</em> (2022). Applied artificial intelligence technology for adaptive natural language understanding with term discovery. U.S. Patent No. US 11,341,330 B1.</li>
+    <li>Platt, D., Nichols, N., Smathers, M., &amp; <em>Lorince, J.</em> (2022). Applied artificial intelligence technology for using natural language processing to train a natural language generation system with respect to numeric style features. U.S. Patent No. US 11,232,270 B1.</li>
+    <li>Platt, D., Nichols, N., Smathers, M., &amp; <em>Lorince, J.</em> (2020). Applied artificial intelligence technology for using natural language processing and concept expression templates to train a natural language generation system. U.S. Patent No. US 10,706,236 B1.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+  <p class="pub-note">9 peer-reviewed papers and book chapters. Full list at <a href="https://jlorince.github.io">jlorince.github.io</a>.</p>
+</section>
+
+</body>
+</html>
