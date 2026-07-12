@@ -26,7 +26,7 @@ function App() {
           <ActionListItem icon={`⭢`} href="https://www.linkedin.com/in/jaredlorince/" target="_blank">
             LinkedIn
           </ActionListItem>
-          <ActionListItem icon={`⭢`} href="/resume.pdf" target="_blank">
+          <ActionListItem icon={`⭢`} href="/jared-lorince-resume.pdf" target="_blank">
             Resume (PDF)
           </ActionListItem>
           <ActionListItem icon={`◉`}>
