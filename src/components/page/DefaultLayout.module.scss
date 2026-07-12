@@ -1,0 +1,13 @@
+.body {
+  margin: 0 auto;
+  max-width: 120ch;
+  padding-top: calc(var(--theme-line-height-base) * 1rem);
+}
+
+.pixel {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
