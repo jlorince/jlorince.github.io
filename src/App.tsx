@@ -33,7 +33,7 @@ function App() {
         </Card>
 
         <Card id="summary" title="Summary">
-          AI engineer with 9+ years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
+          AI engineer with 10 years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
         </Card>
 
         <Card id="core-competencies" title="Core Competencies">
@@ -53,7 +53,7 @@ function App() {
             <ListItem>Identified the absence of structured validation in the LLM tool-calling path and designed and built the validation layer (schema enforcement, retry and error-handling logic) now foundational to the internal agent APIs consumed by engineering teams across the ~3,000-person organization.</ListItem>
             <ListItem>Own character-level code-attribution telemetry backing a primary company KPI — the share of code on the platform that is AI- versus human-authored. Significantly expanded an early prototype into the company's source of truth for this metric.</ListItem>
             <ListItem>Standardized how AI-proposed code changes are rendered across product contexts, and drove the design of the integration unifying the inline assistant with the sidebar agent experience.</ListItem>
-            <ListItem>Serve as de facto manager for two contract engineers and mentor junior engineers on the team, directing implementation and reviewing work across the AI feature set.</ListItem>
+            <ListItem>Serve as de facto manager for two contract engineers, and mentor junior engineers on the team, directing implementation and reviewing work across the AI feature set.</ListItem>
           </ul>
         </Card>
 
@@ -62,7 +62,7 @@ function App() {
             <ListItem>
               <a href="https://hex.tech" target="_blank" rel="noreferrer">Hex Technologies</a> — May 2021–March 2025
               <ul>
-                <ListItem>[Sept 2024–March 2025] Staff AI Engineer — Technical lead for a 6-engineer AI team. Built a custom SQL parser enabling no-code data explorations via natural language; a pipeline that auto-generated contextual suggested prompts from customer data; and integrated AI typeahead for live in-editor code completions.</ListItem>
+                <ListItem>[Sept 2024–March 2025] Staff AI Engineer — Technical lead for a 6-engineer AI team. Built a custom SQL parser enabling no-code data explorations via natural language; built a pipeline that auto-generated contextual suggested prompts from customer data; and integrated AI typeahead for live in-editor code completions.</ListItem>
                 <ListItem>[Jan 2023–Sept 2024] Senior AI Engineer — Founding engineer of <a href="https://hex.tech/product/magic-ai/" target="_blank" rel="noreferrer">Hex Magic</a>; sole developer on the initial integration of AI features into the platform. Architected an agent-agnostic LLM prompting pipeline underlying all AI features; built "Magic Analysis" (natural-language Q&A returning intelligently selected SQL, Python, and visualizations); designed the evaluation framework for prompting quality and experimentation.</ListItem>
                 <ListItem>[May 2021–Jan 2023] Senior Software Engineer (10th employee) — Designed Hex's custom notebook file format (enabling GitHub sync, import/export, and other enterprise features); implemented dataframe SQL; designed and shipped the public API; added R language support.</ListItem>
               </ul>
@@ -121,7 +121,7 @@ function App() {
 
         <Card id="publications" title="Publications">
           <ul>
-            <ListItem><em>Lorince, J.</em> & Todd, P. M. (2016). <a href="https://doi.org/10.4324/9781315413570-16" target="_blank" rel="noreferrer">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System</a>. In M. N. Jones (Ed.), <em>Big Data in Cognitive Science: From Methods to Insights</em>.</ListItem>
+            <ListItem><em>Lorince, J.</em>, & Todd, P. M. (2016). <a href="https://doi.org/10.4324/9781315413570-16" target="_blank" rel="noreferrer">Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System</a>. In M. N. Jones (Ed.), <em>Big Data in Cognitive Science: From Methods to Insights</em>.</ListItem>
             <ListItem><em>Lorince, J.</em>, Zorowitz, S., Murdock, J., & Todd, P. M. (2015). <a href="https://webscience-journal.net/webscience/article/view/12" target="_blank" rel="noreferrer">The Wisdom of the Few? "Supertaggers" in Collaborative Tagging Systems</a>. <em>The Journal of Web Science</em>.</ListItem>
             <ListItem><em>Lorince, J.</em>, Donato, D., & Todd, P. M. (2014). <a href="https://doi.org/10.1007/978-3-319-05579-4_15" target="_blank" rel="noreferrer">Path Following in Social Web Search</a>. Proceedings of the 7th Annual Social Computing, Behavioral-Cultural Modeling and Prediction Conference.</ListItem>
             <ListItem><em>Lorince, J.</em>, Joseph, K., & Todd, P. M. (2015). <a href="https://doi.org/10.1007/978-3-319-16268-3_15" target="_blank" rel="noreferrer">Analysis of music tagging and listening patterns: Do tags really function as retrieval aids?</a> Proceedings of the 8th Annual Social Computing, Behavioral-Cultural Modeling and Prediction Conference.</ListItem>
