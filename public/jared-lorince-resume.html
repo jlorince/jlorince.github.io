@@ -11,11 +11,11 @@
 
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.45;
+    font-size: 10pt;
+    line-height: 1.4;
     color: #111;
     background: #fff;
-    padding: 0.55in 0.65in;
+    padding: 0.45in 0.6in;
     max-width: 8.5in;
     margin: 0 auto;
   }
@@ -25,8 +25,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 10pt;
-    padding-bottom: 8pt;
+    margin-bottom: 7pt;
+    padding-bottom: 6pt;
     border-bottom: 1.5px solid #111;
   }
 
@@ -58,7 +58,7 @@
 
   /* ── Sections ── */
   section {
-    margin-top: 7pt;
+    margin-top: 5pt;
   }
 
   h2 {
@@ -68,8 +68,8 @@
     text-transform: uppercase;
     color: #555;
     border-bottom: 0.75px solid #ccc;
-    padding-bottom: 2pt;
-    margin-bottom: 5pt;
+    padding-bottom: 1.5pt;
+    margin-bottom: 4pt;
     break-after: avoid;
     page-break-after: avoid;
   }
@@ -84,7 +84,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 3pt;
+    gap: 2pt;
   }
 
   .competencies li {
@@ -93,13 +93,15 @@
 
   /* ── Experience ── */
   .role-block {
-    margin-bottom: 6pt;
+    margin-bottom: 4pt;
   }
 
   .role-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    break-after: avoid;
+    page-break-after: avoid;
   }
 
   .role-header .org {
@@ -108,8 +110,8 @@
   }
 
   .role-header .dates {
-    font-size: 9pt;
-    color: #555;
+    font-size: 8.5pt;
+    color: #999;
     flex-shrink: 0;
     margin-left: 8pt;
   }
@@ -136,10 +138,10 @@
 
   .role-block ul {
     list-style: none;
-    margin-top: 3pt;
+    margin-top: 2pt;
     display: flex;
     flex-direction: column;
-    gap: 2pt;
+    gap: 1.5pt;
   }
 
   .role-block ul li {
@@ -159,12 +161,14 @@
   }
 
   .sub-role {
-    margin-top: 3pt;
+    margin-top: 2pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   /* ── Earlier experience ── */
   .earlier-block {
-    margin-bottom: 4pt;
+    margin-bottom: 3pt;
     font-size: 9.5pt;
   }
 
@@ -174,7 +178,7 @@
 
   /* ── Education ── */
   .edu-block {
-    margin-bottom: 4pt;
+    margin-bottom: 3pt;
   }
 
   .edu-header {
@@ -197,7 +201,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 3.5pt;
+    gap: 2.5pt;
   }
 
   .ref-list li {
@@ -227,7 +231,7 @@
 
   @media print {
     body { padding: 0; }
-    @page { margin: 0.55in 0.65in; size: letter; }
+    @page { margin: 0.45in 0.6in; size: letter; }
   }
 </style>
 </head>
@@ -258,7 +262,7 @@
     <li><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale, with a focus on API design and the boundary between framework infrastructure and user-facing features.</li>
     <li><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, cross-team standardization, mentoring junior engineers, and directing contract engineers.</li>
     <li><strong>Research &amp; analysis</strong> — PhD-level experimental design, statistical analysis, and large-scale data processing applied to product and modeling decisions.</li>
-    <li><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git, Docker.</li>
+    <li><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git.</li>
   </ul>
 </section>
 
@@ -395,11 +399,7 @@
     <li>Platt, D., Nichols, N., Smathers, M., &amp; <em>Lorince, J.</em> (2022). Applied artificial intelligence technology for using natural language processing to train a natural language generation system with respect to numeric style features. U.S. Patent No. US 11,232,270 B1.</li>
     <li>Platt, D., Nichols, N., Smathers, M., &amp; <em>Lorince, J.</em> (2020). Applied artificial intelligence technology for using natural language processing and concept expression templates to train a natural language generation system. U.S. Patent No. US 10,706,236 B1.</li>
   </ul>
-</section>
-
-<section>
-  <h2>Publications</h2>
-  <p class="pub-note">9 peer-reviewed papers and book chapters. Full list at <a href="https://jlorince.github.io">jlorince.github.io</a>.</p>
+  <p class="pub-note">Plus 9 peer-reviewed papers and book chapters — full list at <a href="https://jlorince.github.io">jlorince.github.io</a>.</p>
 </section>
 
 </body>

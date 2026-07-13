@@ -45,7 +45,7 @@ function App() {
             <ListItem><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale, with a focus on API design and the boundary between framework infrastructure and user-facing features.</ListItem>
             <ListItem><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, cross-team standardization, mentoring junior engineers, and directing contract engineers.</ListItem>
             <ListItem><strong>Research & analysis</strong> — PhD-level experimental design, statistical analysis, and large-scale data processing applied to product and modeling decisions.</ListItem>
-            <ListItem><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git, Docker.</ListItem>
+            <ListItem><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git.</ListItem>
           </ul>
         </Card>
 
