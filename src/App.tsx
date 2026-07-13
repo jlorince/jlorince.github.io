@@ -1,4 +1,3 @@
-import Accordion from '@components/Accordion';
 import ActionListItem from '@components/ActionListItem';
 import AlertBanner from '@components/AlertBanner';
 import Card from '@components/Card';
@@ -18,8 +17,7 @@ function App() {
       <Grid>
         <AlertBanner>🦙 Jared Lorince, PhD — AI Engineer</AlertBanner>
 
-
-        <Card title="Contact">
+        <Card id="contact" title="Contact">
           <ActionListItem icon={`⭢`} href="mailto:jared.j.lorince@gmail.com">
             jared.j.lorince@gmail.com
           </ActionListItem>
@@ -34,12 +32,11 @@ function App() {
           </ActionListItem>
         </Card>
 
-
-        <Card title="Summary">
+        <Card id="summary" title="Summary">
           AI engineer with 9+ years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
         </Card>
 
-        <Card title="Core Competencies">
+        <Card id="core-competencies" title="Core Competencies">
           <ul>
             <ListItem><strong>AI/ML systems</strong> — End-to-end development of LLM-backed product features: provider APIs, prompt engineering, evaluation frameworks, tool-calling and validation infrastructure, latency optimization, and telemetry for measuring AI impact in production.</ListItem>
             <ListItem><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale, with a focus on API design and the boundary between framework infrastructure and user-facing features.</ListItem>
@@ -49,8 +46,7 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Current Role">
+        <Card id="current-role" title="Current Role">
           <strong>Senior Software Engineer</strong> @ <a href="https://databricks.com" target="_blank" rel="noreferrer">Databricks</a> — March 2025–Present
           <ul>
             <ListItem>Core contributor to framework and user-facing features for <a href="https://www.databricks.com/product/databricks-assistant" target="_blank" rel="noreferrer">Genie Code</a>, Databricks' AI coding assistant (~80,000 daily active users) — tool selection, diff parsing and rendering, accept/reject flows, and the coordination layer tying disparate AI surfaces into a coherent experience.</ListItem>
@@ -61,8 +57,7 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Previous Roles">
+        <Card id="previous-roles" title="Previous Roles">
           <ul>
             <ListItem>
               <a href="https://hex.tech" target="_blank" rel="noreferrer">Hex Technologies</a> — May 2021–March 2025
@@ -82,8 +77,7 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Earlier Experience">
+        <Card id="earlier-experience" title="Earlier Experience">
           <ul>
             <ListItem>
               <a href="https://www.nico.northwestern.edu/" target="_blank" rel="noreferrer">Northwestern Institute on Complex Systems</a> — Postdoctoral Fellow (2016–2017). Research in complex systems and computational social science using ML, text mining, and statistical methods; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
@@ -100,8 +94,7 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Education">
+        <Card id="education" title="Education">
           <ul>
             <ListItem>Indiana University, Bloomington
               <ul>
@@ -116,8 +109,7 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Patents">
+        <Card id="patents" title="Patents">
           <ul>
             <ListItem>Bischof, B., <em>Lorince, J.</em>, Colgrove, C., McCardel, B., Takahashi, G., & Storr, A. (2025). Priming generative AI model leveraging directed acyclic graph-driven notebook environment. <a href="https://patents.google.com/patent/US12332931" target="_blank" rel="noreferrer">U.S. Patent No. US 12,332,931</a>.</ListItem>
             <ListItem><em>Lorince, J.</em>, Storr, A., McCardel, B., Miller, I., Colgrove, C., & Bischof, B. (2024). Machine learning-assisted code generation in directed acyclic graph-driven notebook environment. <a href="https://patents.google.com/patent/US20240256228A1" target="_blank" rel="noreferrer">U.S. Patent Application No. US 2024/0256228 A1</a> (pending).</ListItem>
@@ -127,23 +119,18 @@ function App() {
           </ul>
         </Card>
 
-
-        <Card title="Publications">
+        <Card id="publications" title="Publications">
           <ul>
             <ListItem><em>Lorince, J.</em> & Todd, P. M. (2016). Music Tagging and Listening: Testing the Memory Cue Hypothesis in a Collaborative Tagging System. In M. N. Jones (Ed.), <em>Big Data in Cognitive Science: From Methods to Insights</em>.</ListItem>
             <ListItem><em>Lorince, J.</em>, Zorowitz, S., Murdock, J., & Todd, P. M. (2015). The Wisdom of the Few? "Supertaggers" in Collaborative Tagging Systems. <em>The Journal of Web Science</em>.</ListItem>
             <ListItem><em>Lorince, J.</em>, Donato, D., & Todd, P. M. (2014). Path Following in Social Web Search. Proceedings of the 7th Annual Social Computing, Behavioral-Cultural Modeling and Prediction Conference.</ListItem>
+            <ListItem><em>Lorince, J.</em>, Joseph, K., & Todd, P. M. (2015). Analysis of music tagging and listening patterns: Do tags really function as retrieval aids? Proceedings of the 8th Annual Social Computing, Behavioral-Cultural Modeling and Prediction Conference.</ListItem>
+            <ListItem><em>Lorince, J.</em>, Zorowitz, S., Murdock, J., & Todd, P. M. (2014). "Supertagger" behavior in building folksonomies. Proceedings of the 6th Annual ACM Web Science Conference.</ListItem>
+            <ListItem><em>Lorince, J.</em>, & Todd, P. M. (2013). Can simple social copying heuristics explain tag popularity in a collaborative tagging system? Proceedings of the 5th Annual ACM Web Science Conference.</ListItem>
+            <ListItem>Veinott, E. S., Leonard, J., Papautsky, E. L., Perelman, B., Stankovic, A., <em>Lorince, J.</em>, et al. (2013). The effect of camera perspective and session duration on training decision making in a serious video game. Proceedings of the 2013 IEEE Games Innovation Conference.</ListItem>
+            <ListItem>Mullinix, G., Gray, O., Colado, J., Veinott, E., Leonard, J., Papautsky, E. L., ..., <em>Lorince, J.</em>, et al. (2013). Heuristica: Designing a serious game for improving decision making. Proceedings of the 2013 IEEE Games Innovation Conference.</ListItem>
+            <ListItem><em>Lorince, J.</em> (2016). Consumption of Content on the Web: An Ecologically Inspired Perspective. (Doctoral dissertation, Indiana University).</ListItem>
           </ul>
-          <Accordion title="Additional publications">
-            <ul>
-              <ListItem><em>Lorince, J.</em>, Joseph, K., & Todd, P. M. (2015). Analysis of music tagging and listening patterns: Do tags really function as retrieval aids? Proceedings of the 8th Annual Social Computing, Behavioral-Cultural Modeling and Prediction Conference.</ListItem>
-              <ListItem><em>Lorince, J.</em>, Zorowitz, S., Murdock, J., & Todd, P. M. (2014). "Supertagger" behavior in building folksonomies. Proceedings of the 6th Annual ACM Web Science Conference.</ListItem>
-              <ListItem><em>Lorince, J.</em>, & Todd, P. M. (2013). Can simple social copying heuristics explain tag popularity in a collaborative tagging system? Proceedings of the 5th Annual ACM Web Science Conference.</ListItem>
-              <ListItem>Veinott, E. S., Leonard, J., Papautsky, E. L., Perelman, B., Stankovic, A., <em>Lorince, J.</em>, et al. (2013). The effect of camera perspective and session duration on training decision making in a serious video game. Proceedings of the 2013 IEEE Games Innovation Conference.</ListItem>
-              <ListItem>Mullinix, G., Gray, O., Colado, J., Veinott, E., Leonard, J., Papautsky, E. L., ..., <em>Lorince, J.</em>, et al. (2013). Heuristica: Designing a serious game for improving decision making. Proceedings of the 2013 IEEE Games Innovation Conference.</ListItem>
-              <ListItem><em>Lorince, J.</em> (2016). Consumption of Content on the Web: An Ecologically Inspired Perspective. (Doctoral dissertation, Indiana University).</ListItem>
-            </ul>
-          </Accordion>
         </Card>
       </Grid>
     </DefaultLayout>

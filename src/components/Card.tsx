@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = ({ children, mode, title, style, ...rest }) =>
   }
 
   return (
-    <article className={styles.card} style={style}>
+    <article className={styles.card} style={style} {...rest}>
       {titleElement}
       <section className={styles.children}>{children}</section>
     </article>
