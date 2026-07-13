@@ -41,36 +41,42 @@ function App() {
 
         <Card title="Core Competencies">
           <ul>
-            <ListItem><strong>AI/ML systems</strong> — Designing and shipping LLM-powered products end to end: agent frameworks, tool-calling and validation infrastructure, prompt engineering and evaluation, and telemetry for measuring AI impact in production.</ListItem>
-            <ListItem><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale (Python, TypeScript/React).</ListItem>
-            <ListItem><strong>Data & analysis</strong> — Large-scale data processing, statistical analysis, and experimental design (SQL, Spark, Python scientific stack); PhD-level research methodology applied to product decisions.</ListItem>
-            <ListItem><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, mentoring, and driving cross-team standardization.</ListItem>
+            <ListItem><strong>AI/ML systems</strong> — End-to-end development of LLM-backed product features: provider APIs, prompt engineering, evaluation frameworks, tool-calling and validation infrastructure, latency optimization, and telemetry for measuring AI impact in production.</ListItem>
+            <ListItem><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale, with a focus on API design and the boundary between framework infrastructure and user-facing features.</ListItem>
+            <ListItem><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, cross-team standardization, mentoring junior engineers, and directing contract engineers.</ListItem>
+            <ListItem><strong>Research & analysis</strong> — PhD-level experimental design, statistical analysis, and large-scale data processing applied to product and modeling decisions.</ListItem>
+            <ListItem><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git, Docker.</ListItem>
           </ul>
         </Card>
 
 
         <Card title="Current Role">
           <strong>Senior Software Engineer</strong> @ <a href="https://databricks.com" target="_blank" rel="noreferrer">Databricks</a> — March 2025–Present
-          <br /><br />
-          Building core framework and user-facing features for AI coding assistance across the product. Key contributions: designed and built the validation layer (schema enforcement, retry and error-handling logic) for the LLM tool-calling path, now foundational to the internal agent API consumed by teams across the company; standardized AI-proposed code change rendering across product contexts; sole owner of character-level code-attribution telemetry — the company's source of truth for measuring AI feature impact.
+          <ul>
+            <ListItem>Core contributor to framework and user-facing features for <a href="https://www.databricks.com/product/databricks-assistant" target="_blank" rel="noreferrer">Genie Code</a>, Databricks' AI coding assistant (~80,000 daily active users) — tool selection, diff parsing and rendering, accept/reject flows, and the coordination layer tying disparate AI surfaces into a coherent experience.</ListItem>
+            <ListItem>Identified the absence of structured validation in the LLM tool-calling path and designed and built the validation layer (schema enforcement, retry and error-handling logic) now foundational to the internal agent APIs consumed by engineering teams across the ~3,000-person organization.</ListItem>
+            <ListItem>Own character-level code-attribution telemetry backing a primary company KPI — the share of code on the platform that is AI- versus human-authored. Significantly expanded an early prototype into the company's source of truth for this metric.</ListItem>
+            <ListItem>Standardized how AI-proposed code changes are rendered across product contexts, and drove the design of the integration unifying the inline assistant with the sidebar agent experience.</ListItem>
+            <ListItem>Serve as de facto manager for two contract engineers and mentor junior engineers on the team, directing implementation and reviewing work across the AI feature set.</ListItem>
+          </ul>
         </Card>
 
 
         <Card title="Previous Roles">
           <ul>
             <ListItem>
-              <a href="https://hex.tech" target="_blank" rel="noreferrer">Hex Technologies</a> — May 2021–March 2025 (10th employee; founding engineer of the AI team)
+              <a href="https://hex.tech" target="_blank" rel="noreferrer">Hex Technologies</a> — May 2021–March 2025
               <ul>
                 <ListItem>[Sept 2024–March 2025] Staff AI Engineer — Technical lead for a 6-engineer AI team. Built a custom SQL parser enabling no-code data explorations via natural language; a pipeline that auto-generates contextual suggested prompts from customer data; and integrated AI typeahead for live in-editor code completions.</ListItem>
-                <ListItem>[Jan 2023–Sept 2024] Senior AI Engineer — Founding engineer of <a href="https://hex.tech/product/magic-ai/" target="_blank" rel="noreferrer">Hex Magic</a>. Architected an agent-agnostic LLM prompting pipeline underlying all AI features; built "Magic Analysis" (natural-language Q&A returning intelligently selected SQL, Python, and visualizations); designed the evaluation framework for prompting quality and experimentation.</ListItem>
-                <ListItem>[May 2021–Jan 2023] Senior Software Engineer — Designed Hex's custom notebook file format (enabling GitHub sync, import/export, and other enterprise features); implemented dataframe SQL; shipped the public API; added R language support.</ListItem>
+                <ListItem>[Jan 2023–Sept 2024] Senior AI Engineer — Founding engineer of <a href="https://hex.tech/product/magic-ai/" target="_blank" rel="noreferrer">Hex Magic</a>; sole developer on the initial integration of AI features into the platform. Architected an agent-agnostic LLM prompting pipeline underlying all AI features; built "Magic Analysis" (natural-language Q&A returning intelligently selected SQL, Python, and visualizations); designed the evaluation framework for prompting quality and experimentation.</ListItem>
+                <ListItem>[May 2021–Jan 2023] Senior Software Engineer (10th employee) — Designed Hex's custom notebook file format (enabling GitHub sync, import/export, and other enterprise features); implemented dataframe SQL; designed and shipped the public API; added R language support.</ListItem>
               </ul>
             </ListItem>
             <ListItem>
               Narrative Science, Inc. (acquired by <a href="https://www.tableau.com/solutions/ai-analytics/augmented-analytics" target="_blank" rel="noreferrer">Salesforce/Tableau</a>) — May 2017–May 2021
               <ul>
-                <ListItem>[2019–2021] Senior Software Engineer → Data Intelligence Technical Lead — Developer on the core NLG platform; incubation team member prototyping high-risk/high-reward features, including automatic extraction of linguistic expressions for abstract concepts from unstructured text (see Patents).</ListItem>
-                <ListItem>[2017–2019] Software Engineer</ListItem>
+                <ListItem>[2019–2021] Senior Software Engineer → Data Intelligence Technical Lead — Developer on the core rule- and template-based NLG platform (pre-LLM era); incubation team member prototyping high-risk/high-reward features, including automatic extraction of linguistic expressions for abstract concepts from unstructured text (see Patents). Served as NLP and ML subject-matter expert.</ListItem>
+                <ListItem>[2017–2019] Software Engineer — Built a custom event-tracking framework enabling stakeholders to analyze user interaction with the platform.</ListItem>
               </ul>
             </ListItem>
           </ul>
@@ -99,7 +105,7 @@ function App() {
           <ul>
             <ListItem>Indiana University, Bloomington
               <ul>
-                <ListItem>[2010–2016] Joint Ph.D. in Cognitive Science and Cognitive Psychology</ListItem>
+                <ListItem>[2010–2016] Joint Ph.D. in Cognitive Science and Cognitive Psychology. NSF IGERT Fellow. Served as cognitive-science advisor on IARPA's SIRIUS program, designing and analyzing serious-game environments to train intelligence analysts in recognizing and mitigating cognitive biases.</ListItem>
               </ul>
             </ListItem>
             <ListItem>University of California, Berkeley
