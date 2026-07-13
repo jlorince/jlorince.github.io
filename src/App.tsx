@@ -62,7 +62,7 @@ function App() {
             <ListItem>
               <a href="https://hex.tech" target="_blank" rel="noreferrer">Hex Technologies</a> — May 2021–March 2025
               <ul>
-                <ListItem>[Sept 2024–March 2025] Staff AI Engineer — Technical lead for a 6-engineer AI team. Built a custom SQL parser enabling no-code data explorations via natural language; a pipeline that auto-generates contextual suggested prompts from customer data; and integrated AI typeahead for live in-editor code completions.</ListItem>
+                <ListItem>[Sept 2024–March 2025] Staff AI Engineer — Technical lead for a 6-engineer AI team. Built a custom SQL parser enabling no-code data explorations via natural language; a pipeline that auto-generated contextual suggested prompts from customer data; and integrated AI typeahead for live in-editor code completions.</ListItem>
                 <ListItem>[Jan 2023–Sept 2024] Senior AI Engineer — Founding engineer of <a href="https://hex.tech/product/magic-ai/" target="_blank" rel="noreferrer">Hex Magic</a>; sole developer on the initial integration of AI features into the platform. Architected an agent-agnostic LLM prompting pipeline underlying all AI features; built "Magic Analysis" (natural-language Q&A returning intelligently selected SQL, Python, and visualizations); designed the evaluation framework for prompting quality and experimentation.</ListItem>
                 <ListItem>[May 2021–Jan 2023] Senior Software Engineer (10th employee) — Designed Hex's custom notebook file format (enabling GitHub sync, import/export, and other enterprise features); implemented dataframe SQL; designed and shipped the public API; added R language support.</ListItem>
               </ul>
@@ -70,7 +70,7 @@ function App() {
             <ListItem>
               Narrative Science, Inc. (acquired by <a href="https://www.tableau.com/solutions/ai-analytics/augmented-analytics" target="_blank" rel="noreferrer">Salesforce/Tableau</a>) — May 2017–May 2021
               <ul>
-                <ListItem>[2019–2021] Senior Software Engineer → Data Intelligence Technical Lead — Developer on the core rule- and template-based NLG platform (pre-LLM era); incubation team member prototyping high-risk/high-reward features, including automatic extraction of linguistic expressions for abstract concepts from unstructured text (see Patents). Served as NLP and ML subject-matter expert.</ListItem>
+                <ListItem>[2019–2021] Senior Software Engineer → Data Intelligence Technical Lead — Developed features for the core rule- and template-based NLG platform (pre-LLM era); as an incubation team member, prototyped high-risk/high-reward features including automatic extraction of linguistic expressions for abstract concepts from unstructured text (see Patents). Served as NLP and ML subject-matter expert.</ListItem>
                 <ListItem>[2017–2019] Software Engineer — Built a custom event-tracking framework enabling stakeholders to analyze user interaction with the platform.</ListItem>
               </ul>
             </ListItem>
@@ -80,10 +80,10 @@ function App() {
         <Card id="earlier-experience" title="Earlier Experience">
           <ul>
             <ListItem>
-              <a href="https://www.nico.northwestern.edu/" target="_blank" rel="noreferrer">Northwestern Institute on Complex Systems</a> — Postdoctoral Fellow (2016–2017). Research in complex systems and computational social science using ML, text mining, and statistical methods; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
+              <a href="https://www.nico.northwestern.edu/" target="_blank" rel="noreferrer">Northwestern Institute on Complex Systems</a> — Postdoctoral Fellow (2016–2017). Conducted research in complex systems and computational social science using ML, text mining, and statistical methods; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
             </ListItem>
             <ListItem>
-              <a href="https://en.wikipedia.org/wiki/StumbleUpon" target="_blank" rel="noreferrer">StumbleUpon</a> — Data Scientist (2015–2016). Lead developer of an Apache Spark framework combining topic modeling and rating prediction for user-interest profiling and content recommendation on the discovery platform.
+              <a href="https://en.wikipedia.org/wiki/StumbleUpon" target="_blank" rel="noreferrer">StumbleUpon</a> — Data Scientist (2015–2016). Led development of an Apache Spark framework combining topic modeling and rating prediction for user-interest profiling and content recommendation on the discovery platform.
             </ListItem>
             <ListItem>
               <a href="https://en.wikipedia.org/wiki/StumbleUpon" target="_blank" rel="noreferrer">StumbleUpon</a> — Data Science Intern (Summer 2015). Prototyped methods for canonical user-interest profiling.
@@ -103,7 +103,7 @@ function App() {
             </ListItem>
             <ListItem>University of California, Berkeley
               <ul>
-                <ListItem>[2005–2009] B.A. with High Honors in Cognitive Science</ListItem>
+                <ListItem>[2005–2009] B.A. with High Honors in Cognitive Science.</ListItem>
               </ul>
             </ListItem>
           </ul>
