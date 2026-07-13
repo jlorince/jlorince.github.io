@@ -16,7 +16,7 @@ function App() {
     <DefaultLayout previewPixelSRC="https://intdev-global.s3.us-west-2.amazonaws.com/template-app-icon.png">
       <DefaultActionBar />
       <Grid>
-        <AlertBanner>🦙 Jared Lorince — AI Engineer</AlertBanner>
+        <AlertBanner>🦙 Jared Lorince, PhD — AI Engineer</AlertBanner>
 
 
         <Card title="Contact">
@@ -36,7 +36,7 @@ function App() {
 
 
         <Card title="Summary">
-          PhD-trained AI engineer with 9+ years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
+          AI engineer with 9+ years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
         </Card>
 
         <Card title="Core Competencies">
@@ -44,7 +44,7 @@ function App() {
             <ListItem><strong>AI/ML systems</strong> — End-to-end development of LLM-backed product features: provider APIs, prompt engineering, evaluation frameworks, tool-calling and validation infrastructure, latency optimization, and telemetry for measuring AI impact in production.</ListItem>
             <ListItem><strong>Software engineering</strong> — Full-stack product and platform development across startup and enterprise scale, with a focus on API design and the boundary between framework infrastructure and user-facing features.</ListItem>
             <ListItem><strong>Technical leadership</strong> — Founding-engineer and tech-lead experience: architecture ownership, cross-team standardization, mentoring junior engineers, and directing contract engineers.</ListItem>
-            <ListItem><strong>Research & analysis</strong> — PhD-level experimental design, statistical analysis, and large-scale data processing applied to product and modeling decisions.</ListItem>
+            <ListItem><strong>Research & analysis</strong> — Experimental design, statistical analysis, and large-scale data processing applied to product and modeling decisions.</ListItem>
             <ListItem><strong>Technical skills</strong> — TypeScript, Python, SQL, Bash; React, GraphQL and REST API design; PostgreSQL; Git.</ListItem>
           </ul>
         </Card>
