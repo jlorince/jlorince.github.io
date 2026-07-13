@@ -86,16 +86,16 @@ function App() {
         <Card title="Earlier Experience">
           <ul>
             <ListItem>
-              <a href="https://www.nico.northwestern.edu/" target="_blank" rel="noreferrer">Northwestern Institute on Complex Systems (NICO)</a> — Postdoctoral Fellow (2016–2017). Research in complex systems and computational social science using ML, text mining, and statistical methods; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
+              <a href="https://www.nico.northwestern.edu/" target="_blank" rel="noreferrer">Northwestern Institute on Complex Systems</a> — Postdoctoral Fellow (2016–2017). Research in complex systems and computational social science using ML, text mining, and statistical methods; projects included predicting the emergence of new scientific fields and musical genres, and large-scale data visualization.
             </ListItem>
             <ListItem>
               <a href="https://en.wikipedia.org/wiki/StumbleUpon" target="_blank" rel="noreferrer">StumbleUpon</a> — Data Scientist (2015–2016). Lead developer of an Apache Spark framework combining topic modeling and rating prediction for user-interest profiling and content recommendation on the discovery platform.
             </ListItem>
             <ListItem>
-              StumbleUpon — Data Science Intern (Summer 2015). Prototyped methods for canonical user-interest profiling.
+              <a href="https://en.wikipedia.org/wiki/StumbleUpon" target="_blank" rel="noreferrer">StumbleUpon</a> — Data Science Intern (Summer 2015). Prototyped methods for canonical user-interest profiling.
             </ListItem>
             <ListItem>
-              Yahoo! Labs — Research Scientist Intern (2011–2012). Built and evaluated an ecologically-inspired social web-search interface.
+              <a href="https://en.wikipedia.org/wiki/Yahoo!_Labs" target="_blank" rel="noreferrer">Yahoo! Labs</a> — Research Scientist Intern (2011–2012). Built and evaluated an ecologically-inspired social web-search interface.
             </ListItem>
           </ul>
         </Card>
