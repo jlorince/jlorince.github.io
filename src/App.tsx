@@ -33,7 +33,7 @@ function App() {
         </Card>
 
         <Card id="summary" title="Summary">
-          AI engineer with 10 years spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
+          AI engineer with 10 years of experience spanning academic research, early-stage startups, and large-scale platform engineering. Track record of identifying critical gaps in AI systems, building the foundational infrastructure to close them, and unifying features as they scale from prototype to company-wide adoption. Founding engineer and technical lead, equally at home in framework-level architecture and shipping user-facing product.
         </Card>
 
         <Card id="core-competencies" title="Core Competencies">
