@@ -4,3 +4,8 @@ out/
 .next/
 .DS_Store
 *.local
+
+# TODO is a symlink into my Obsidian vault (~/memex/TODO/projects/jlorince.github.io/).
+# Tasks are managed with todo-tool, not tracked here. See CONVENTION.md.
+# No trailing slash: git sees the symlink as a file, not a dir.
+/TODO
