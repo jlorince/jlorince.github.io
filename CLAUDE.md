@@ -7,5 +7,6 @@ personal website (Create React App + craco), GitHub Pages
 
 - Read `README.md` first.
 - Tasks: `TODO/` is a symlink into the vault (todo-tool project `jlorince.github.io`); add work there, not in chat.
-- Commits: commit and push your own work freely; never force-push, rewrite published history, or
-  deploy without Jared's explicit go-ahead.
+- Commits: commit and push your own work freely. `--force-with-lease` is fine on a branch you
+  created that isn't merged yet; never force-push `main` or a shared branch, rewrite published
+  history, or deploy without Jared's explicit go-ahead.
